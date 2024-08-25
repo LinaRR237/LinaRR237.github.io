@@ -2,8 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-size: 18px;
-  color: var(--tg-theme-text-color)
-  background: var(--tg-theme-bg-color)
+  color: var(--tg-theme-text-color);
+  background: var(--tg-theme-bg-color);
 }
 
 .container {
@@ -29,8 +29,10 @@ body {
   padding: 10px 20px;
   border: none;
   background: rgb(248, 168, 24);
+  borden-radius: 10px;
   color: #fff;
-  text-weigtht: 700
+  text-transfort: uppercase;
+  font-weight: 700;
     
   transition: background .2s linear;
 }
@@ -39,7 +41,7 @@ body {
   background: lightgreen;
 }
 
-.usercfrd {
+.usercard {
   text-align: center;
 }
 
